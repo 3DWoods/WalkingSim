@@ -12,6 +12,6 @@ Began greyboxing initial environment - began work on carpark area.
 # Development screens
 
 
-![Testing Polybrush](https://imgur.com/mRyuUSl)
+![Testing Polybrush](https://i.imgur.com/mRyuUSl.png)
 
-![Initial grey boxing](https://imgur.com/HtMKDcW)
+![Initial grey boxing](https://i.imgur.com/HtMKDcW.png)
