@@ -6,18 +6,24 @@ ModelImporter:
     100000: //RootNode
     100002: Cube
     100004: Cube.001
+    100006: Cube.006
     400000: //RootNode
     400002: Cube
     400004: Cube.001
+    400006: Cube.006
     2100000: Material
+    2100002: Glass
     2300000: //RootNode
     2300002: Cube
     2300004: Cube.001
+    2300006: Cube.006
     3300000: //RootNode
     3300002: Cube
     3300004: Cube.001
+    3300006: Cube.006
     4300000: Cube
     4300002: Cube.001
+    4300004: Cube.006
   externalObjects: {}
   materials:
     importMaterials: 1
