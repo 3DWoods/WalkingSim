@@ -2,23 +2,20 @@
 EGF Walking Sim
 
 
-# Day 5
-More work on forging out routes as well as asset tests. Been playing various walking simulators and open world games to better understand environment design. (Everybody's Gone To The Rapture, Tom Clancy's Ghost Recon Wildlands: notable sources of inspiration)
-More asset tests to feel out structure
+# Day 6
+Splitting up the daily workflow with some more general asset creation.
+WIP on bridge - Texture unwrapped/Rigged/Animated
+WIP on fences - Placement in world/general asset creation
+TODO: 
+Textures - Need to recolourise several textures to match.
+
 
 # Development screens
 
-WIP Overview
-![WIP Overview](https://i.imgur.com/0u56wVv.png)
+Bridge asset
+![Bridge asset](https://i.imgur.com/ZiUBNFM.png)
 
-WIP inside of office area
-![WIP inside of office area](https://i.imgur.com/f8lRUX8.png)
+Fencing + view of path
+![Fencing](https://i.imgur.com/0L2n5Qa.png)
 
-Main path 
-![Main path ](https://i.imgur.com/NorJ1kx.png)
 
-Cave area
-![Cave area](https://i.imgur.com/41BWjNI.png)
-
-Bridge area with WIP bridge model
-![Bridge area with WIP bridge model](https://i.imgur.com/394q0uu.png)
