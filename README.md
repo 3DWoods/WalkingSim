@@ -2,24 +2,22 @@
 EGF Walking Sim
 
 
-# Day 8
-Around 75% done with the environment modelling, cabin/housing area needs to be started and the paths need to be tweaked, but it's turning out how I expected, which is a huge relief. Hopefully this will be done by day 9, 10 at the latest.
-Added some additional backdrop mountains which help fill out the surrounding space, this helps a lot when the player is higher up and can see over the main walkable area to add further depth to the world.
+# Day 9
+Shaders are still broken, unity crashing -a lot-, -a lot a lot-. Somethings just not great in 2018, but I can't narrow it down. 
 
-Additionally, quite a few of my shaders have simply.. stopped working? (The ones that handle vertex displacement) Not sure what that is about, but without it, no foliage, or tree can move - need to look further into it.
+Terrain has been completed, originally I was going to use PolyBrush (Unity's newly aquired tool) to do object scattering and vertex painting, however- it's just incredibly awkward to work with, causes way too many issues, and simply cannot work with meshses as large as the environment terrain. I came across [this tool called Object2Terrain](https://lmhpoly.com/convert-mesh-to-unity-terrain/), which converts mesh objects into unity terrain (allowing me to then use landscape painting tools, over PolyBrush) which ends up being better as PolyBrush has a limit of 4 textures per surface, where as Unity Terrain is unlimited(? Haven't checked how much it can handle, but I've slotted in 6 textures so far and have had no issue painting with all of them together).
+
+Now it's just going to be a few incredibly long days of detailing the environment out, and then I'll be moving onto designing and implementing my environmental game feel mechanics.
+
+TODO:
+And urgently; make a build, make sure it's running. I've added in so many tools and assets the past few weeks I have no idea if it builds successfully.
 
 # Development screens
 
-Waterfall (no, no hidden cave behind it ...yet)
-![Waterfall](https://i.imgur.com/wDYcjaF.png)
+Terrian completed
+![load road](https://i.imgur.com/pJBD6OZ.png)
 
-Not so happy with how this looks from this side, needs tweeking
-![Cliff formation](https://i.imgur.com/LmspZTh.png)
-
-The main road leading into the cabin/housing area - this bridge will be busted up due to an accident, making the player need to take the journey through the forest path, and not simply drive up.
-![The main road](https://i.imgur.com/WL7dRUt.png)
-
-More backdrop wip
-![Small tweaks to rear of office](https://i.imgur.com/DgQepZA.png)
+The load road of detailing
+![load road](https://i.imgur.com/ukGGjTk.png)
 
 

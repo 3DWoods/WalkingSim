@@ -9,6 +9,7 @@
 [Ww]alkingSim/Builds/
 [Ww]alkingSim/Assets/AssetStoreTools*
 [Ww]alkingSim/Assets/Ignore
+[Ww]alkingSim/Assets/Scenes
 
 # Visual Studio cache directory
 .vs/
