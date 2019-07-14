@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1953259897 &8574412962073106934
+TerrainLayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: layer_QXL_Wild_Grass_2x2_M_sg3jahsk_AlbedoQXL_Wild_Grass_2x2_M_sg3jahsk_Normals(2.000,2.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000
+  m_DiffuseTexture: {fileID: 2800000, guid: 4a42ebc1d878093489d230b6bc24074f, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 4913a6a3299192f4b9426e4901b55985, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 1508149e481bb5741b978ad0cc4d88b5, type: 3}
+  m_TileSize: {x: 2, y: 2}
+  m_TileOffset: {x: 0, y: 0}
+  m_Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_Metallic: 0
+  m_Smoothness: 0
+  m_NormalScale: 1
+  m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+  m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+  m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+  m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}

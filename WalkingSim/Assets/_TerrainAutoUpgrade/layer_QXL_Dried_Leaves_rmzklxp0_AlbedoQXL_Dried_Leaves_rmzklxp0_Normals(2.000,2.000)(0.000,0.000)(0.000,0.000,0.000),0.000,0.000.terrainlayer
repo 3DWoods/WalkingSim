@@ -6,11 +6,11 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NewLayer
-  m_DiffuseTexture: {fileID: 2800000, guid: cebf95bd26a72864cb65e6ae13268e06, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 5d5f1fadf129f534ea4171d9d3d96340, type: 3}
-  m_MaskMapTexture: {fileID: 2800000, guid: 2c73719b7ebb6cf43a7dc6be57574d99, type: 3}
-  m_TileSize: {x: 2, y: 2}
+  m_Name: layer_QXL_Dried_Leaves_rmzklxp0_AlbedoQXL_Dried_Leaves_rmzklxp0_Normals(2.000,2.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000
+  m_DiffuseTexture: {fileID: 2800000, guid: 00c0344610ebfc64787af60053f4879d, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 67bda9417aa4e4540a816605a3ce5b99, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 15d09ae9304ca7a479e1a2b2af83ce87, type: 3}
+  m_TileSize: {x: 1, y: 1}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
