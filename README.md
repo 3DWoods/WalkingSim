@@ -5,7 +5,7 @@ EGF Walking Sim
 # Day 10
 Worries about a build compiling were true, though managed to get the build running, just needed to add the clouds shader to be prerendered.
 
-I've used the [Unity split terrain script](http://kostiantyn-dvornik.blogspot.com/2013/12/unity-split-terrain-script.html) tool created by [Kostiantyn Dvornik](http://kostiantyn-dvornik.blogspot.com/2013/12/unity-split-terrain-script.html)](http://kostiantyn-dvornik.blogspot.com) to split my large environment scene into smaller chunks, this will allow me to focus each day into filling out an area of terrain with trees, and details, and fine tuning the terrain mesh. This is also a good optimisation step as it allows me further control of how much of the terrain needs to be visible at any given time. 
+I've used the [Unity split terrain script](http://kostiantyn-dvornik.blogspot.com/2013/12/unity-split-terrain-script.html) tool created by [Kostiantyn Dvornik](http://kostiantyn-dvornik.blogspot.com) to split my large environment scene into smaller chunks, this will allow me to focus each day into filling out an area of terrain with trees, and details, and fine tuning the terrain mesh. This is also a good optimisation step as it allows me further control of how much of the terrain needs to be visible at any given time. 
 
 I also found out Unity's terrain painting tool does have a limit of 8 layers, that's up by 4 from PolyBrush, but it was another reason to split the terrain into chunks, as not all areas are going to utilise the same texture sets, so swapping them out per terrain chunk will be another benefit of splitting.
 
