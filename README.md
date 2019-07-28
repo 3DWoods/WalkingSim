@@ -2,26 +2,17 @@
 EGF Walking Sim
 
 
-# Day 10
-Worries about a build compiling were true, though managed to get the build running, just needed to add the clouds shader to be prerendered.
+# Day 11-17
+A long time has passed since my last commit working on this project, the semester has restarted and I'm back in classes. The last week or so of work as been spent on technical elements of the project, material, shaders, lighting, post-processing, and it's all taken up a lot of time with no real forward momentem on the project from a visual perspective. This weekend though involved a lot more doing on the visuals, crafting new areas and fleshing them out, trying new materials in the scene and working to find the feel of the lighting throughout the environment. Work should be smoother now I've gotten these kinks in the project sorted, and now it should just be straight forward environment design, focusing on elements that really bring out the feel I'm going for, but more on that as it develops. Here's some WIP screens featuring new lighting and materials.
 
-I've used the [Unity split terrain script](http://kostiantyn-dvornik.blogspot.com/2013/12/unity-split-terrain-script.html) tool created by [Kostiantyn Dvornik](http://kostiantyn-dvornik.blogspot.com) to split my large environment scene into smaller chunks, this will allow me to focus each day into filling out an area of terrain with trees, and details, and fine tuning the terrain mesh. This is also a good optimisation step as it allows me further control of how much of the terrain needs to be visible at any given time. 
-
-I also found out Unity's terrain painting tool does have a limit of 8 layers, that's up by 4 from PolyBrush, but it was another reason to split the terrain into chunks, as not all areas are going to utilise the same texture sets, so swapping them out per terrain chunk will be another benefit of splitting.
-
-For now I'm just focusing on filling out each of these terrain split chunks, I've subdivided the main terrain twice breaking it into a total of 16 chunks which need to be detailed, ideally these will take around half a day to a day each to fill.
-
-Also upgraded HDRP pipeline to 4.10 to support R.A.M. River Auto Material for rivers and waterfall support.
-
-TODO:
-A few weeks ago I also upgraded my computer case (needed a bigger case to fit a new AIO as mine was on the brink of death, seriously, 90c importing files into Unity with the old one) but the drawback was the new case only fits  2 standard HDDs, my old case has 5 - A bunch of my old shaders I was developing for grass and wind effects are unfortunately on one of the HDDs that didn't make it into the new case, so I'll need to get around to pulling my PC apart and copying over those important files, a bit time consuming to be sure.
+TODO: Find a LUT Solution - the one I'm using I sourced from the internet (cannot find the source now) but it fails to compile a build, and only works in editor. Unless I'm missing something, Unity 2018's post processing stack does not come with a built in LUT component?
 
 # Development screens
 
-Opening section
-![load road](https://i.imgur.com/MGi8Hed.png)
+New materials using tesselation and displacement maps, volumetric lighting and color grading
+![load road](https://i.imgur.com/IoumKmp.png)
 
-Hill section
-![load road](https://i.imgur.com/AqzTd9s.png)
+Entrance section has been fleshed out more, adding some story telling elements in terms of the signage to ground the environment more as a believable space.
+![load road](https://i.imgur.com/DHbs6jz.png)
 
 
