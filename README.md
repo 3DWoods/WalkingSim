@@ -15,6 +15,6 @@ Unity 2019 Built-In Renderer - Very nice for sunsets, however, alter the sunset 
 Day 1 in game - No one has walked through the path yet, weather has generated as a somewhat clear, sunny day.
 ![load road](https://i.imgur.com/JNp3mu0.png)
 
-Day 5 in game - Overcast, later in the afternoon as it's getting dark - still need to tweak lighting settings.
+Day 5 in game - Overcast, later in the afternoon as it's getting dark - still need to tweak lighting settings - visble trail of where the player has walked through the environment previously.
 ![load road](https://i.imgur.com/M2yxdm0.png)
 
