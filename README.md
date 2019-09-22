@@ -2,17 +2,19 @@
 EGF Walking Sim
 
 
-# Day 11-17
-A long time has passed since my last commit working on this project, the semester has restarted and I'm back in classes. The last week or so of work as been spent on technical elements of the project, material, shaders, lighting, post-processing, and it's all taken up a lot of time with no real forward momentem on the project from a visual perspective. This weekend though involved a lot more doing on the visuals, crafting new areas and fleshing them out, trying new materials in the scene and working to find the feel of the lighting throughout the environment. Work should be smoother now I've gotten these kinks in the project sorted, and now it should just be straight forward environment design, focusing on elements that really bring out the feel I'm going for, but more on that as it develops. Here's some WIP screens featuring new lighting and materials.
+# Dev Update
+Lots of work being done behind the scenes, a lot of testing Unity versions/compatability to try and get HDRP to work- some sacrifices here and there to keep up with visual quality. As it turns out HDRP in 2019 changed the way it handles screen space effects, and thus killing a lot of my post-processing in newer versions of Unity/HDRP. Did some tests with LWRP as a comprimise and built-in, but could not achieve close visual fedelity, also I found lower performance was found in LWRP/Built-In.
 
-TODO: Find a LUT Solution - the one I'm using I sourced from the internet (cannot find the source now) but it fails to compile a build, and only works in editor. Unless I'm missing something, Unity 2018's post processing stack does not come with a built in LUT component?
+Aside from that work has been started on creating persistant systems that handle time passing in the game, objects remember placements, there's some foliage degeration over time based on player action and I have a work in progress weather system that changes each day the game is launched.
 
 # Development screens
 
-New materials using tesselation and displacement maps, volumetric lighting and color grading
-![load road](https://i.imgur.com/IoumKmp.png)
+Unity 2019 Built-In Renderer - Very nice for sunsets, however, alter the sunset and the rest of the render looks quite poor, the lack of lighting across materials comparent to HDRP is very apparent.
+![load road](https://i.imgur.com/dtrRc5I.png)
 
-Entrance section has been fleshed out more, adding some story telling elements in terms of the signage to ground the environment more as a believable space.
-![load road](https://i.imgur.com/DHbs6jz.png)
+Day 1 in game - No one has walked through the path yet, weather has generated as a somewhat clear, sunny day.
+![load road](https://i.imgur.com/JNp3mu0.png)
 
+Day 5 in game - Overcast, later in the afternoon as it's getting dark - still need to tweak lighting settings.
+![load road](https://i.imgur.com/M2yxdm0.png)
 
