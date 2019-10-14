@@ -3,13 +3,11 @@ EGF Walking Sim
 
 
 # Dev Update
-Created a save/load persistence system for in-game interactables, all objects moved and placed by the player is now permanent.
+Lighting / Weather update per new day instance test code / test weather
+Post process / Scene Lighting data for each weather / day
+Implemented persistance objects code to main scene
+Test code for realtime grass terrain durability decay (opposed to on new instance) - Still early test - may not be performant.
+Cabin files/layout added to main environment
 
-Note: No online connectivity with this system - highly likely that system is being cut due to time constraints.
-
-# Development screens
-
-Example of persistent objects being loaded at startup.
-![load road](https://i.imgur.com/GT7HSya.png)
 
 
