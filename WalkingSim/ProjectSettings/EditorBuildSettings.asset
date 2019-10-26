@@ -8,7 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: a11e69de6a640874eaa760896dba07cd
-  - enabled: 1
-    path: Assets/Scenes/DeleteUntilRun.unity
+  - enabled: 0
+    path: Assets/Scenes/DeleteUntilRun_FirstAdditionOfScripts.unity
     guid: 9a04d4427cfe7254ca5e91cd4df5960e
+  - enabled: 0
+    path: Assets/Scenes/testBake.unity
+    guid: 89031a452114a184dbc08032bcdf029e
+  - enabled: 0
+    path: Assets/Scenes/DeleteUntilRun 1.unity
+    guid: 96677bdd1fa5e9049a0af6bdeab8bf18
+  - enabled: 1
+    path: Assets/Scenes/DeleteUntilRun_RemappingPathToBridge.unity
+    guid: a81792fb90bde444e978f862e7d08fa4
+  - enabled: 0
+    path: Assets/Scenes/DeleteUntilRun_TestPickupEnvironment.unity
+    guid: ebd196d0135ccb341b259aa7c6b10eba
   m_configObjects: {}

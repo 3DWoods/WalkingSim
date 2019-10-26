@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PersistantObject
+  - Surface
+  - StaticInteract
+  - GameManager
+  - PersistantInteractable
   layers:
   - Default
   - TransparentFX
@@ -14,6 +19,7 @@ TagManager:
   - 
   - 
   - PostProcessing
+  - Interaction
   - 
   - 
   - 
@@ -29,8 +35,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Pickup
   - Enemy
   - MovingPlatform
   - VisualEffect
